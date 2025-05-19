@@ -12,12 +12,12 @@ import { ExternalLink } from 'lucide-react';
 //           di production build.
 // =============================================================================
 
-import layananImg from '@/components/layanan.jpg';
-import arstoreImg from '@/components/Arstore.jpg';
-import tolentopImg from '@/components/tolentop.jpg';
-import mykostImg from '@/components/mykost.jpg';
-import portfolioImg from '@/components/webnotfound.jpg';
-import notfoundImg from '@/components/notfound404.jpg';
+import layananImg from '../components/layanan.jpg';
+import arstoreImg from '../components/Arstore.jpg';
+import tolentopImg from '../components/tolentop.jpg';
+import mykostImg from '../components/mykost.jpg';
+import portfolioImg from '../components/webnotfound.jpg';
+import notfoundImg from '../components/notfound404.jpg';
 
 interface Project {
   id: number;
