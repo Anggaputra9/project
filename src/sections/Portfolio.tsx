@@ -12,7 +12,7 @@ import { ExternalLink } from 'lucide-react';
 //           di production build.
 // =============================================================================
 
-import layananImg from '../components/layanan.jpg';
+import layananImg from '../components/layananmasyarakat.jpg';
 import arstoreImg from '../components/Arstore.jpg';
 import tolentopImg from '../components/tolentop.jpg';
 import mykostImg from '../components/mykost.jpg';
