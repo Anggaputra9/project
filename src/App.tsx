@@ -9,9 +9,9 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="font-sans">
+    <div className="font-sans overflow-x-hidden relative w-full">
       <Navbar />
-      <main>
+      <main className="w-full overflow-x-hidden">
         <Hero />
         <About />
         <Services />

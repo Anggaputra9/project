@@ -5,10 +5,11 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    @apply overflow-x-hidden;
   }
   
   body {
-    @apply font-sans text-gray-800 bg-white;
+    @apply font-sans text-gray-800 bg-white overflow-x-hidden;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -22,19 +23,19 @@
   }
   
   .btn-primary {
-    @apply bg-sky-500 hover:bg-sky-600 text-white font-medium py-3 px-6 rounded-lg transition-all duration-300 inline-flex items-center gap-2;
+    @apply bg-sky-500 hover:bg-sky-600 text-white font-medium py-3 px-6 rounded-lg transition-all duration-300 inline-flex items-center justify-center gap-2 text-center;
   }
   
   .btn-outline {
-    @apply border border-sky-500 text-sky-500 hover:bg-sky-50 font-medium py-3 px-6 rounded-lg transition-all duration-300 inline-flex items-center gap-2;
+    @apply border border-sky-500 text-sky-500 hover:bg-sky-50 font-medium py-3 px-6 rounded-lg transition-all duration-300 inline-flex items-center justify-center gap-2 text-center;
   }
   
   .section-title {
-    @apply text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-center;
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-center px-4;
   }
   
   .section-subtitle {
-    @apply text-xl text-gray-600 mb-12 text-center max-w-3xl mx-auto;
+    @apply text-xl text-gray-600 mb-12 text-center max-w-3xl mx-auto px-4;
   }
   
   .card {
